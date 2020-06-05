@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read It Up</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/Read_It_Up.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Eng Books
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Fiction.html">Fiction</a>
+                        <a class="dropdown-item" href="Non-Fiction.html">Non-Fiction</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Urdu.html" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Urdu Books
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Afsany.html">Afsany</a>
+                        <a class="dropdown-item" href="Islamic.html">Islamic Studies</a>
+                        <a class="dropdown-item " href="Reg-Poetry.html">Regional Poetry</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Kids.html">Kids Section</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About-Us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="FAQ.html">FAQ's</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="account.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/back0.png" alt="First slide">
+            </div>
+        </div>
+    </div>
+
+    <div class="body-doc">
+
+        <div class="heading3">
+            <h2>Featured Books</h2>
+        </div>
+        <div class="newReleases">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book15.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title">The Invisible Man</h6>
+                                <p class="card-text">by: H. G. Wells</p>
+                                <p class="card-text-2">Rs 2,150</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book16.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Under The Stars</h5>
+                                <p class="card-text">by:Matt Gaw</p>
+                                <p class="card-text-2">Rs 2,095</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book17.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title">The Machine Stops</h6>
+                                <p class="card-text">by:E. M. Forster</p>
+                                <p class="card-text-2">Rs 1,250</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book18.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 style="font-size: 12px;" class="card-title">100 STEPS TOWARDS SUCCESS</h6>
+                                <p style="font-size: 12px;" class="card-text">by: Shahzad Amin</p>
+                                <p class="card-text-2">Rs 845</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book19.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 style="font-size: 14px;" class="card-title">The World's Richest Man</h5>
+                                <p class="card-text">by:Tanni Haas</p>
+                                <p class="card-text-2">Rs 1,095</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book20.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">2 B R O 2 B</h5>
+                                <p style="font-size: 15px;" class="card-text">by: Kurt Vonnegut</p>
+                                <p class="card-text-2">Rs 1,950</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book21.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 style="font-size: 10px;" class="card-title">13 Things Mentally Strong Women Don't Do
+                                </h6>
+                                <p class="card-text">by: Amy Morin</p>
+                                <p class="card-text-2">Rs 2,295</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book192.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 style="font-size: 13px;" class="card-title">The Magic Of Thinking Big</h6>
+                                <p class="card-text">by: David J Schwartz</p>
+                                <p class="card-text-2">Rs 1,250</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book193.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 style="font-size: 15px;" class="card-title">Why Men Love Bitches</h6>
+                                <p class="card-text">by: Sherry Argov</p>
+                                <p class="card-text-2">Rs 1,800</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book194.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6  class="card-title">The Handmaids Tale</h6>
+                                <p class="card-text">by:Margaret Atwood</p>
+                                <p class="card-text-2">Rs 995</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book195.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 style="font-size: 12px;" class="card-title">Pakistan A Personal History</h6>
+                                <p class="card-text">by: Imran Khan</p>
+                                <p class="card-text-2">Rs 1,135</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book196.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6  class="card-title">Milk And Honey </h6>
+                                <p class="card-text">by:Rupi Kaur</p>
+                                <p class="card-text-2">Rs 995</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book197.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title">None But The Dead </h6>
+                                <p class="card-text">by: Lin Anderson</p>
+                                <p class="card-text-2">Rs 895</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book198.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title">Educated </h6>
+                                <p class="card-text">by:Tara Westover</p>
+                                <p class="card-text-2">Rs 890</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book199.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6  class="card-title">Elon Musk </h6>
+                                <p class="card-text">by:Ashlee Vance</p>
+                                <p class="card-text-2">Rs 746</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="img/book200.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h6  class="card-title">Under The Net</h6>
+                                <p class="card-text">by:Iris Murdoch</p>
+                                <p class="card-text-2">Rs 1,255</p>
+                                <div class="cart-wish">
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Cart"
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+                                    <a href="#"><i data-toggle="tooltip" data-placement="top" title="Add to Wishlist"
+                                            class="fa fa-heart" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <a href="index.html"><button  type="button" class="btn btn-outline-dark">Back To HomePage</button></a>
+
+        <div class="footer">
+            <div>
+                <h5> © 2020 Copyright, Read It Up , All Rights Reserved.</h5>
+                <div class="container">
+                    <ul class="list-unstyled list-inline text-center">
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-fb mx-3">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-tw mx-3">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-li mx-3">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-dribbble mx-3">
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('[data-toggle=tooltip]').tooltip();
+            }); 
+        </script>
+</body>
+
+</html>
